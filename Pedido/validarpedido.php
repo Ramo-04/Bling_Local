@@ -73,7 +73,7 @@
 </head>
 <body>
     <?php
-        include("conexion.php");
+        include("../conexion.php");
         $sql = "SELECT * FROM pedido
             INNER JOIN detalles_pedido ON pedido.id_pedido = detalles_pedido.fk_id_pedido
             INNER JOIN producto ON detalles_pedido.fk_id_producto = producto.id_producto";
@@ -119,10 +119,10 @@
                 ?>
             </tbody>
         </table>
-        <a href="menuV.html" class="btn">Volver</a><br><br>
+        <a href="../menuV.html" class="btn">Volver</a><br><br>
     </div>
 
-    <!-- Scripts de DataTables -->
+    
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/searchbuilder/1.6.0/js/dataTables.searchBuilder.min.js"></script>

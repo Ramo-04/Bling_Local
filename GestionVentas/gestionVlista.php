@@ -73,8 +73,8 @@ $resultado = mysqli_query($conectar, $sql_select);
   </table>
 
   <a href="gestionVentasCrear.php" class="crear-btn">Agregar Nueva Venta</a>
-  <a href="../Bling/dashboard_v.html" class="volver-btn">Volver al Dashboard</a>
-  <a href="../Bling/col_pago_list.php" class="volver-btn">Ver Pagos Realizados</a>
+  <a href="../dashboard_v.html" class="volver-btn">Volver al Dashboard</a>
+  <a href="../col_pago_list.php" class="volver-btn">Ver Pagos Realizados</a>
 </div>
 
 </body>

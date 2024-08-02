@@ -1,5 +1,5 @@
 <?php
-include("conexion.php");
+include("../conexion.php");
 
 // Inicializar variables
 $pedidoDetalles = array(); // Inicializa un array vacío para evitar advertencias

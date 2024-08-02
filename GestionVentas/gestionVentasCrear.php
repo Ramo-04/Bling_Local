@@ -87,7 +87,7 @@ mysqli_close($conectar);
   </form>
 
   <a href="gestionVlista.php" class="volver-btn">Volver al Listado de Ventas</a>
-  <a href="../Bling/dashboard_v.html" class="volver-btn">Volver al Dashboard</a>
+  <a href="../dashboard_v.html" class="volver-btn">Volver al Dashboard</a>
   <a href="../Bling/col_pago_list.php" class="volver-btn">Ver Pagos Realizados</a>
 </div>
 

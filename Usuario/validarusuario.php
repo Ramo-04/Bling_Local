@@ -87,12 +87,12 @@
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 content">
             <div class="btn-back">
-                <a class="btn btn-light text-primary" href="menuv.html" role="button">Volver al Menú</a>
+                <a class="btn btn-light text-primary" href="../menuv.html" role="button">Volver al Menú</a>
             </div>
             <h1 class="h2">Usuarios Registrados</h1>
             
             <?php
-                include("conexion.php");
+                include("../conexion.php");
                 $sql = "SELECT id_usuario, nombre, apellido, telefono, direccion, fecha_de_nacimiento, correo, estado, tipo_usuario FROM usuario";
                 $resultado = mysqli_query($conectar, $sql);
             ?>
